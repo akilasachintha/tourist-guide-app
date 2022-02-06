@@ -7,6 +7,7 @@ import "./App.css";
 import FooterComponent from "./components/footer/FooterComponent";
 import AddNewLocationForm from "./components/pages/dashboard/locations/AddNewLocationForm";
 import LocationComponent from "./components/pages/dashboard/locations/LocationComponent";
+import HotelComponent from "./components/pages/dashboard/hotels/HotelComponent";
 
 const App = () => {
   return (
@@ -21,6 +22,10 @@ const App = () => {
           <Route
             path="/dashboard/location"
             element={<LocationComponent />}
+          ></Route>
+           <Route
+            path="/dashboard/hotel"
+            element={<HotelComponent />}
           ></Route>
           <Route path="/dashboard" element={<DashboardComponent />}></Route>
           <Route path="/" exact element={<HomeComponent />}></Route>
