@@ -16,7 +16,7 @@ const FooterComponent = () => {
         </p>
         <div className="input-areas">
           <form>
-            <input
+            <input style={{display: "inline-flex"}}
               className="footer-input"
               name="email"
               type="email"

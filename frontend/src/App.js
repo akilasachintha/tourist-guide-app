@@ -2,11 +2,10 @@ import DashboardComponent from "./components/pages/dashboard/DashboardComponent"
 import NavBar from "../src/components/header/NavBar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomeComponent from "./components/pages/home/HomeComponent";
-
-import "./App.css";
 import FooterComponent from "./components/footer/FooterComponent";
 import AddNewLocationForm from "./components/pages/dashboard/locations/AddNewLocationForm";
 import LocationComponent from "./components/pages/dashboard/locations/LocationComponent";
+import "./App.css";
 
 const App = () => {
   return (

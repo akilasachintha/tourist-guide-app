@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 export default function ActionAreaCard(prop) {
   return (
-    <Link to={`${prop.path}`} style={{ textDecoration: 'none' }}>
+    <Link to={`${prop.path}`} style={{ textDecoration: "none" }}>
       <Card sx={{ maxWidth: 345, my: 10 }}>
         <CardActionArea>
           <CardMedia
