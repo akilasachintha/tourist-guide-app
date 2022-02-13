@@ -17,7 +17,7 @@ const DashboardComponent = () => {
           <ActionAreaCard name="Location" src="/images/img-home.jpg" path="/dashboard/location"/>
         </Grid>
         <Grid item xs={4} sm={4} md={4}>
-          <ActionAreaCard name="Hotels" src="/images/img-6.jpg"/>
+          <ActionAreaCard name="Hotels" src="/images/img-6.jpg" path="/dashboard/hotel"/>
         </Grid>
         <Grid item xs={4} sm={4} md={4}>
           <ActionAreaCard name="Vehicles" src="/images/img-8.jpg"/>
