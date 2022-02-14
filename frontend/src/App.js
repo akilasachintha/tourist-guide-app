@@ -5,11 +5,8 @@ import HomeComponent from "./components/pages/home/HomeComponent";
 import FooterComponent from "./components/footer/FooterComponent";
 import AddNewLocationForm from "./components/pages/dashboard/locations/AddNewLocationForm";
 import LocationComponent from "./components/pages/dashboard/locations/LocationComponent";
-<<<<<<< Updated upstream
 import "./App.css";
-=======
-import LoginComponent from "./components/pages/login/LoginComponent";
->>>>>>> Stashed changes
+
 
 const App = () => {
   return (
@@ -20,10 +17,6 @@ const App = () => {
           <Route
             path="/dashboard/location/add-new-location"
             element={<AddNewLocationForm />}
-          ></Route>
-          <Route
-            path="/Login"
-            element={<LoginComponent />}
           ></Route>
           <Route
             path="/dashboard/location"
