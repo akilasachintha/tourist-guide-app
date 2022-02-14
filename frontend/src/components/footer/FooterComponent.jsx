@@ -2,30 +2,10 @@ import React from "react";
 import "./FooterComponent.css";
 import "./FooterComponent.css";
 import { Link } from "react-router-dom";
-import { Button } from "../button/Button";
 
 const FooterComponent = () => {
   return (
     <div className="footer-container">
-      <section className="footer-subscription">
-        <p className="footer-subscription-heading">
-          Join the Adventure newsletter to receive our best vacation deals
-        </p>
-        <p className="footer-subscription-text">
-          You can unsubscribe at any time.
-        </p>
-        <div className="input-areas">
-          <form>
-            <input style={{display: "inline-flex"}}
-              className="footer-input"
-              name="email"
-              type="email"
-              placeholder="Your Email"
-            />
-            <Button buttonStyle="btn--outline">Subscribe</Button>
-          </form>
-        </div>
-      </section>
       <div className="footer-links">
         <div className="footer-link-wrapper">
           <div className="footer-link-items">

@@ -1,7 +1,7 @@
 import React from "react";
 import { useFormik } from "formik";
 import * as yup from "yup";
-import { TextField } from "@mui/material";
+import { TextField, Typography } from "@mui/material";
 import "./AddNewLocationForm.css";
 import { Button } from "@mui/material";
 import axios from "axios";
@@ -10,12 +10,18 @@ const validationSchema = yup.object({
   locationName: yup
     .string("Enter your Location Name")
     .required("Location Name is required"),
-  district: yup.string("Enter your District").required("District is required"),
-  town: yup.string("Enter Town").required("Town is required"),
+  district: yup
+    .string("Enter your District")
+    .required("District is required"),
+  town: yup
+    .string("Enter Town")
+    .required("Town is required"),
 });
 
 const AddNewLocationForm = () => {
   const formik = useFormik({
+    
+    //Initial Values of form
     initialValues: {
       locationName: "",
       district: "",
@@ -23,7 +29,11 @@ const AddNewLocationForm = () => {
       category: "",
       description: "",
     },
+
+    //Schema of Validation
     validationSchema: validationSchema,
+
+    //Handle Submit
     onSubmit: (values) => {
       const value = JSON.stringify(values, null, 2);
       console.log(value);
@@ -39,13 +49,20 @@ const AddNewLocationForm = () => {
           description: values.description,
         })
         .then((res) => {
-          console.log(res.values);
-        });
+          console.log(res); 
+        })
+        .catch(err => {
+          console.log(err);
+        });  
     },
   });
 
   return (
     <div>
+      <Typography variant="h3" sx={{
+        m: 3,
+        textAlign: "center",
+      }}> Add a New Location </Typography>
       <form onSubmit={formik.handleSubmit}>
         <TextField
           fullWidth
