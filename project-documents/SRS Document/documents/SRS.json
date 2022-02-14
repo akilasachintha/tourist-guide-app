@@ -1,0 +1,471 @@
+{
+  "id": "SRS",
+  "guid": "65df6e4f-0556-4eac-bb8a-41fd3b90df4c",
+  "name": "Software Requirements Specification",
+  "lastId": 31,
+  "createdOn": "2022-02-14T16:30:41.229Z",
+  "createdBy": {
+    "name": "Pulini Tilanka",
+    "email": "tilankakpp.19@uom.lk",
+    "company": "University of Moratuwa"
+  },
+  "lastChangedOn": "2022-02-14T16:51:49.098Z",
+  "lastChangedBy": {
+    "name": "Pulini Tilanka",
+    "email": "tilankakpp.19@uom.lk",
+    "company": "University of Moratuwa"
+  },
+  "helpRef": "ISO/IEC/IEEE 29148:2018",
+  "data": [
+    {
+      "id": "1",
+      "guid": "b578c32f-2470-4132-ba10-5860c08594b2",
+      "heading": "Introduction",
+      "text": "<p>Nowadays, we can see many web applications that have been created for low budget tourists coming to Sri Lanka from abroad. The Tourist Guide Web Application is one such web application.</p><p>Tourists have faced some difficulties when finding places to visit, how to get transportation, how to choose applicable accommodation, how to order foods and what are the places they can visit in related areas. They have used various kinds of web applications to satisfy these requirements, but they cannot find one of the most suitable web applications to satisfy all these requirements. So, they need a single web application to fulfill their set of requirements.</p>",
+      "helpRef": "8.5",
+      "type": "SEC",
+      "history": [
+        {
+          "attributesChanged": {
+            "text": null
+          },
+          "changedBy": {
+            "company": "University of Moratuwa",
+            "email": "tilankakpp.19@uom.lk",
+            "name": "Pulini Tilanka"
+          },
+          "changedOn": "2022-02-14T16:51:22.507Z"
+        }
+      ],
+      "children": [
+        {
+          "id": "2",
+          "guid": "772ae6ee-1ab0-4851-83ca-239d2a5e5ad9",
+          "heading": "Purpose",
+          "text": "<p>● &nbsp; &nbsp; &nbsp; Develop a user management system</p><p>● &nbsp; &nbsp; &nbsp; Facilitate online hotels booking</p><p>● &nbsp; &nbsp; &nbsp; Facilitate a location management system</p><p>● &nbsp; &nbsp; &nbsp; Facilitate a vehicle management system</p><p>● &nbsp; &nbsp; &nbsp; Develop a user-friendly web application</p><p>● &nbsp; &nbsp; &nbsp; Develop a mobile app</p>",
+          "helpRef": "9.6.2",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "University of Moratuwa",
+                "email": "tilankakpp.19@uom.lk",
+                "name": "Pulini Tilanka"
+              },
+              "changedOn": "2022-02-14T16:51:49.098Z"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "guid": "5e69d2eb-88fc-4676-aedf-a32a679163e8",
+          "heading": "Scope",
+          "helpRef": "9.6.3",
+          "type": "SEC"
+        },
+        {
+          "id": "4",
+          "guid": "b3d21d9b-ddf1-429c-be77-adf8099ac561",
+          "heading": "Product perspective",
+          "helpRef": "9.6.4",
+          "type": "SEC",
+          "children": [
+            {
+              "id": "5",
+              "guid": "047d5d1b-fa96-4e07-bb0a-4801775d72bd",
+              "heading": "System interfaces",
+              "helpRef": "9.6.4.1",
+              "type": "SEC"
+            },
+            {
+              "id": "6",
+              "guid": "29b0c6a8-9da1-4bdb-82f0-ed7204b3822b",
+              "heading": "User interfaces",
+              "helpRef": "9.6.4.2",
+              "type": "SEC"
+            },
+            {
+              "id": "7",
+              "guid": "3e3906c6-66e9-4f5e-a366-8dea4ffe1a9c",
+              "heading": "Hardware interfaces",
+              "helpRef": "9.6.4.3",
+              "type": "SEC"
+            },
+            {
+              "id": "8",
+              "guid": "2e9b2ee1-efec-410a-85b9-726943f1b4c1",
+              "heading": "Software interfaces",
+              "helpRef": "9.6.4.4",
+              "type": "SEC"
+            },
+            {
+              "id": "9",
+              "guid": "f228b1d1-e68b-4c72-af88-4f9a0c4886ee",
+              "heading": "Communications interfaces",
+              "helpRef": "9.6.4.5",
+              "type": "SEC"
+            },
+            {
+              "id": "10",
+              "guid": "bb9932a9-e66c-4734-b205-b924ebcd59e6",
+              "heading": "Memory constraints",
+              "helpRef": "9.6.4.6",
+              "type": "SEC"
+            },
+            {
+              "id": "11",
+              "guid": "39373c5e-9c2e-48f6-a72a-ad9c5c0fb6c4",
+              "heading": "Operations",
+              "helpRef": "9.6.4.7",
+              "type": "SEC"
+            },
+            {
+              "id": "12",
+              "guid": "bb13d585-b967-4a9c-ba09-07840b8ec51d",
+              "heading": "Site adaptation requirements",
+              "helpRef": "9.6.4.8",
+              "type": "SEC"
+            },
+            {
+              "id": "13",
+              "guid": "c49226fb-2da8-42f1-9fd7-94ba8797ce88",
+              "heading": "Interfaces with  services",
+              "helpRef": "9.6.4.9",
+              "type": "SEC"
+            }
+          ]
+        },
+        {
+          "id": "14",
+          "guid": "a1947263-909c-42a3-b088-11f8f04b70a3",
+          "heading": "Product functions",
+          "helpRef": "9.6.5",
+          "type": "SEC"
+        },
+        {
+          "id": "15",
+          "guid": "9873a097-5fca-4a1b-8532-75aefdc6b0cb",
+          "heading": "User  characteristics",
+          "helpRef": "9.6.6",
+          "type": "SEC"
+        },
+        {
+          "id": "16",
+          "guid": "1ead17ea-6b03-4b97-b383-5e8424217481",
+          "heading": "Limitations",
+          "helpRef": "9.6.7",
+          "type": "SEC"
+        },
+        {
+          "id": "17",
+          "guid": "ae47add2-8afc-4116-ab37-9f51ab15a792",
+          "heading": "Assumptions and dependencies",
+          "helpRef": "9.6.8",
+          "type": "SEC"
+        },
+        {
+          "id": "18",
+          "guid": "253c5fd0-a59c-4410-b21e-9ab98c3e36ef",
+          "heading": "Definitions",
+          "helpRef": "9.2.3",
+          "type": "SEC"
+        },
+        {
+          "id": "19",
+          "guid": "67be6065-66b9-4b39-a491-81ee4b4234f2",
+          "heading": "Acronyms and abbreviations",
+          "helpRef": "9.2.5",
+          "type": "SEC"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "guid": "d9fea671-a751-4257-9024-4c0e4b2edb7f",
+      "heading": "Requirements",
+      "helpRef": "9.6.10",
+      "type": "SEC",
+      "children": [
+        {
+          "id": "21",
+          "guid": "504a1759-bbca-417b-a392-eb33c608a92b",
+          "heading": "External interfaces",
+          "helpRef": "9.6.11",
+          "type": "SEC"
+        },
+        {
+          "id": "22",
+          "guid": "997318d5-4b97-4058-a681-2b7e0839dea2",
+          "heading": "Functions",
+          "helpRef": "9.6.12",
+          "type": "SEC"
+        },
+        {
+          "id": "23",
+          "guid": "eaa1bd29-a4b4-4ed9-b0ad-d1484bc76a34",
+          "heading": "Usability requirements",
+          "helpRef": "9.6.13",
+          "type": "SEC"
+        },
+        {
+          "id": "24",
+          "guid": "76c08e47-0f53-49fb-840c-f9be3b54b158",
+          "heading": "Performance requirements",
+          "helpRef": "9.6.14",
+          "type": "SEC"
+        },
+        {
+          "id": "25",
+          "guid": "7cea85d8-ca57-405a-97cf-5d6b7c773e8f",
+          "heading": "Logical database requirements",
+          "helpRef": "9.6.15",
+          "type": "SEC"
+        },
+        {
+          "id": "26",
+          "guid": "966238af-c466-4e42-a50f-595e6ff37da4",
+          "heading": "Design constraints",
+          "helpRef": "9.6.16",
+          "type": "SEC"
+        },
+        {
+          "id": "27",
+          "guid": "675d9249-5567-4d46-8991-54aab31f4f35",
+          "heading": "Standards compliance",
+          "helpRef": "9.6.17",
+          "type": "SEC"
+        },
+        {
+          "id": "28",
+          "guid": "c10fda7f-7e6c-4a75-9992-c326db66ed3e",
+          "heading": "Software system attributes",
+          "helpRef": "9.6.18",
+          "type": "SEC"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "guid": "6877fdac-a06c-4bc2-9840-1e42f55ee0fb",
+      "heading": "Verification",
+      "helpRef": "9.6.19",
+      "type": "SEC"
+    },
+    {
+      "id": "30",
+      "guid": "868c26fa-af54-4656-ad41-b43ab5d1c4b7",
+      "heading": "Supporting information",
+      "helpRef": "9.6.20",
+      "type": "SEC"
+    },
+    {
+      "id": "31",
+      "guid": "cb325beb-157e-4b56-8137-941d561f2de0",
+      "heading": "References",
+      "helpRef": "9.2.4",
+      "type": "SEC"
+    }
+  ],
+  "attributes": {
+    "difficulty": {
+      "name": "Difficulty",
+      "type": "enum",
+      "values": [
+        {
+          "key": "E",
+          "label": "Easy"
+        },
+        {
+          "key": "N",
+          "label": "Nominal"
+        },
+        {
+          "key": "D",
+          "label": "Difficult"
+        }
+      ]
+    },
+    "owner": {
+      "name": "Owner",
+      "type": "string"
+    },
+    "priority": {
+      "name": "Priority",
+      "type": "enum",
+      "values": [
+        {
+          "key": "L",
+          "label": "Low"
+        },
+        {
+          "key": "M",
+          "label": "Medium"
+        },
+        {
+          "key": "H",
+          "label": "High"
+        }
+      ]
+    },
+    "rationale": {
+      "name": "Rationale",
+      "type": "xhtml"
+    },
+    "source": {
+      "name": "Source",
+      "type": "string"
+    },
+    "status": {
+      "name": "Status",
+      "type": "enum",
+      "values": [
+        {
+          "key": "Draft"
+        },
+        {
+          "key": "Ready"
+        },
+        {
+          "key": "Reviewed"
+        },
+        {
+          "key": "Approved"
+        },
+        {
+          "key": "Released"
+        }
+      ]
+    },
+    "type": {
+      "name": "Type",
+      "type": "enum",
+      "values": [
+        {
+          "key": "FR",
+          "label": "Functional Requirement"
+        },
+        {
+          "key": "INT",
+          "label": "Interface Requirement"
+        },
+        {
+          "key": "NFR",
+          "label": "Non-func. Requirement"
+        },
+        {
+          "key": "SEC",
+          "label": "Section"
+        },
+        {
+          "key": "INF",
+          "label": "Information"
+        }
+      ]
+    },
+    "verMethod": {
+      "name": "Ver. Method",
+      "type": "enum",
+      "values": [
+        {
+          "key": "T",
+          "label": "Test"
+        },
+        {
+          "key": "D",
+          "label": "Demonstration"
+        },
+        {
+          "key": "I",
+          "label": "Inspection"
+        },
+        {
+          "key": "A",
+          "label": "Analysis"
+        }
+      ]
+    }
+  },
+  "view": {
+    "columns": [
+      {
+        "columnId": "id",
+        "hidden": false,
+        "width": 77
+      },
+      {
+        "attribute": "type",
+        "columnId": "type",
+        "hidden": false,
+        "width": 97
+      },
+      {
+        "columnId": "description",
+        "hidden": false,
+        "width": 372
+      },
+      {
+        "columnId": "discussion",
+        "hidden": true,
+        "width": 190
+      },
+      {
+        "columnId": "links",
+        "hidden": true,
+        "width": 196
+      },
+      {
+        "attribute": "source",
+        "columnId": "source",
+        "hidden": false,
+        "width": 150
+      },
+      {
+        "attribute": "rationale",
+        "columnId": "rationale",
+        "hidden": false,
+        "width": 150
+      },
+      {
+        "attribute": "priority",
+        "columnId": "priority",
+        "hidden": false,
+        "width": 96
+      },
+      {
+        "attribute": "status",
+        "columnId": "status",
+        "hidden": false,
+        "width": 86
+      },
+      {
+        "attribute": "verMethod",
+        "columnId": "verMethod",
+        "hidden": false,
+        "width": 105
+      },
+      {
+        "attribute": "difficulty",
+        "columnId": "difficulty",
+        "hidden": true,
+        "width": 108
+      },
+      {
+        "attribute": "owner",
+        "columnId": "owner",
+        "hidden": true,
+        "width": 106
+      },
+      {
+        "columnId": "attributes",
+        "hidden": true,
+        "width": 300
+      }
+    ]
+  },
+  "metadata": {
+    "format": "2.13"
+  }
+}
