@@ -20,46 +20,66 @@ const RegistrationComponent = ({ handleClose }) => {
   return (
     <form  onSubmit={handleSubmit}>
         <TextField
+         fullWidth
+         sx={{
+             mb: 5,
+           }}
         label="First Name"
         variant="outlined"
         required
         value={firstName}
         onChange={e => setFirstName(e.target.value)}
-        style={{display: 'flex',margin:'20px'}}
+
       />
       <br />
       <TextField
+       fullWidth
+       sx={{
+           mb: 5,
+         }}
         label="Last Name"
         variant="outlined"
         required
         value={lastName}
         onChange={e => setLastName(e.target.value)}
-        style={{display: 'flex',margin:'20px'}}
       />
       <br />
       <TextField
+       fullWidth
+       sx={{
+           mb: 5,
+         }}
         label="Email"
         variant="outlined"
         type="email"
         required
         value={email}
         onChange={e => setEmail(e.target.value)}
-        style={{display: 'flex',margin:'20px'}}
       />
       <br />
       <TextField
+                fullWidth
+                sx={{
+                    mb: 5,
+                  }}
         label="Password"
         variant="outlined"
         type="password"
         required
         value={password}
         onChange={e => setPassword(e.target.value)}
-        style={{display: 'flex',margin:'20px'}}
+        
       />
       <br/>
       <div>
-        <Button type="submit" variant="contained" color="success" style={{display: 'flex',margin:'20px'}}>
-          SUBMIT
+        <Button
+          color="primary"
+          variant="contained"
+          fullWidth
+          type="submit"
+          sx={{ backgroundColor: "#242424" }}
+        >
+          Submit
         </Button>
       </div>
     </form>

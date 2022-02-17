@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import TextField from '@mui/material/TextField';
-import Button from '@mui/material/Button';
+import {Button} from '@mui/material';
+import { Link } from "react-router-dom";
 
 
 const LoginComponent = ({ handleClose }) => {
@@ -12,12 +13,11 @@ const LoginComponent = ({ handleClose }) => {
   const [password, setPassword] = useState('');
 
   const handleSubmit = e => {
-    e.preventDefault();
-    console.log(firstName, lastName, email, password);
-    handleClose();
+    console.log(e);
   };
 
   return (
+      
     <form  onSubmit={handleSubmit}>
         <TextField 
         id="outlined-basic"
@@ -39,13 +39,17 @@ const LoginComponent = ({ handleClose }) => {
         style={{display: 'flex',margin:'10px'}}
       />
       <br />
-      <div>
-        <Button type="submit" variant="contained" color="success" style={{display: 'flex',margin:'10px'}}>
+      <div style={{display: 'flex', justifyContent: 'center'}}>
+          <span style={{display: 'flex'}}>
+          <Button type="submit" variant="contained" color="success" style={{display: 'flex',margin:'10px'}}>
           Sign In
         </Button>
-        <Button type="submit" variant="contained" color="success" path="/registration" style={{display: 'flex',margin:'10px'}}>
-          Sign Up
-        </Button>
+        <span style={{display: 'flex', paddingTop: '15px'}}>
+            Don't have an account?
+            <Link to="/registration">Sign up</Link>
+        </span>
+          </span>
+
       </div>
       
     </form>
