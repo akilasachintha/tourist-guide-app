@@ -65,15 +65,15 @@ const NavBar = () => {
             </li>
             <li className="nav-item">
               <Link
-                to="/sign-up"
+                to="/login"
                 className="nav-links-mobile"
                 onClick={closeMobleMenu}
               >
-                Sign Up
+                Sign In
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline" path="/login">Sign Up</Button>}
+          {button && <Button buttonStyle="btn--outline" path="/login">Sign In</Button>}
         </div>
       </nav>
     </>
