@@ -38,7 +38,7 @@ const AddNewLocationForm = () => {
       const value = JSON.stringify(values, null, 2);
       console.log(value);
 
-      const url = " http://localhost:8080/api/location";
+      const url = "http://localhost:8080/api/location";
 
       axios
         .post(url, {
